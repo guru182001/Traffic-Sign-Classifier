@@ -40,7 +40,7 @@ Download the [data set](https://d17h27t6h515a5.cloudfront.net/topher/2017/Februa
 [image9]: ./test_images/8.jpg "Traffic Sign 8"
 [image10]: ./test_images/9.jpg "Traffic Sign 9"
 [image11]: ./test_images/10.jpg "Traffic Sign 10"
-[Data pre-process.ipynb](https://github.com/liferlisiqi/Traffic-Sign-Classifier/blob/master/Data%20pre-process.ipynb)
+[Data pre-process.ipynb](https://github.com/guru182001/Traffic-Sign-Classifier/blob/main/Final%20Traffic%20sign.ipynb)
 ---
 
 I used the numpy library to calculate summary statistics of the traffic signs data set:
@@ -56,7 +56,7 @@ Here is an exploratory visualization of the training data set.
 The distribution of training, validation and testing set is showing in the following bar charts.
 ![alt text][distribution]
 
-[LeNet.ipynb](https://github.com/liferlisiqi/Traffic-Sign-Classifier/blob/master/LeNet.ipynb)
+[LeNet.ipynb](https://github.com/guru182001/Traffic-Sign-Classifier/blob/main/Final%20Traffic%20sign.ipynb)
 ---
 The [LeNet](http://219.216.82.193/cache/10/03/yann.lecun.com/b1a1c4acb57f1b447bfe36e103910875/lecun-01a.pdf) model is proposed by Yann LeCun in 1998, it is the most classific cnn model for image recognition, its architecture is as following: 
 
@@ -99,7 +99,7 @@ The results are:
 
 We can see that the model is overfitting to the training data and the accuracy on validation set is a little lower than on training set. The LeNet model is efficient and simple, many cnn architectures are inspired by it, like AlexNet.
 
-[AlexNet.ipynb](https://github.com/liferlisiqi/Traffic-Sign-Classifier/blob/master/AlexNet.ipynb)
+[AlexNet.ipynb](https://github.com/guru182001/Traffic-Sign-Classifier/blob/main/Final%20Traffic%20sign.ipynb)
 ---
 
 [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) is the first popularized CNN architecture in computer vision developed by Alex Krizhevsky, Geoffrey Hinton, and Ilya Sutskever. It is the champion of ImageNet ILSVRC challenge in 2012 and significantly outperformed the second runner-up. The AlexNet has a similar architecture with LeNet, but it is deeper and bigger.
